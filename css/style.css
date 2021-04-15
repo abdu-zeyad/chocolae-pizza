@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Oswald:wght@300&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Dancing+Script:wght@400;500&family=EB+Garamond:ital@1&family=Oswald:wght@300&family=Staatliches&display=swap');
+
+body {
+    padding: 7px 150px;
+    background-color: whitesmoke;
+}
+header{
+    position: relative;
+    padding: 20px 0px 30px 0px;
+}
+
+header div {
+    display: inline-block ;
+}
+
+.content h1 {
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+}
+
+.content p {
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: 600;
+    color: gray;
+}
+
+.right{
+    position: absolute;
+    right: 0;
+}
+.right div{
+    padding: 5px;
+}
+
+.right ul li {
+    display: inline-block;
+}
+
+/* ****************************************************************************** */
+/* Flaired edges, by Tomas Theunissen */
+
+
+.hrPage {
+    background-image: url(../img/hr-img.png);
+    position: relative;
+    height: 10px;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+/* .hrPage {
+    overflow: visible; 
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+.hrPage:before { 
+   
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+} */
+
+/* ******************************************************************************* */
+main {
+    position: relative;
+}
+
+.top h2 {
+    padding: 3px ;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+
+}
+.top p {
+    padding: 3px;
+    font-size: 9px;
+    color: gray;
+}
+
+.print {
+    position: absolute;
+    right: 0;
+}
+.print a {
+    text-decoration: none;
+    color: gray;
+    padding: 7px;
+}
+
+.hero {
+    width: 100%;
+    padding: 35px 0px;
+}
+.hero img{
+    width: 100%;
+}
+
+/* **************************** */
+
+.middle div {
+    padding: 15px 0px ;
+    font-size: 23px;
+    text-align: justify;
+    text-indent: 30px;
+    /* font-family: 'EB Garamond', serif; */
+    color: gray;
+}
+
+/* ************************** */
+
+.end {
+    background-image: url(../img/list-bg.png);
+    width: 100%;
+    /* height: 150%; */
+    height: 350px;
+    background-size: cover;
+    position: relative;
+    margin: 40px 0px;
+    /* padding: px 0px; */
+}
+
+.end fieldset {
+    display: inline-block;
+    padding: 60px 100px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.575);
+}
+.end div {
+    padding: 3px;
+}
+.checked {
+    text-decoration: line-through;
+}
+
+/* ********************************************************************* */
+ .uppper{
+    position: relative;
+ }
+.uppper div {
+    display: inline-block;
+    
+}
+
+.uppper div img {
+    border-radius: 50%;
+}
+#contant {
+    text-align: justify ;
+    width: 50%;
+    
+}
+#contant h3 {
+    font-size: 27px;
+    padding: 0px 0px 7px 5px;
+}
+
+#contant p {
+    padding: 0px 5px 30px 5px;
+    font-size: 23px;
+    color: gray;
+}
+
+.button {
+    position: absolute;
+    right: 0;
+}
+.button button {
+    padding: 7px 15px;
+    color: whitesmoke;
+    background-color: rgb(172, 112, 51);
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+
+}
+
+/* ********************************** */
+    .hrFooter {
+        overflow: visible; 
+        padding: 0;
+        border: none;
+        border-top: medium double #333;
+        color: #333;
+        text-align: center;
+    }
+    .hrFooter:after {
+        content: url(../img/small-logo.png);
+        display: inline-block;
+        position: relative;
+        top: -0.7em;
+        font-size: 1.5em;
+        padding: 0 0.25em;
+        background: white;
+    }
+
+/* *****************************************  */
+
+.lower {
+    text-align: center;
+    color: gray;
+    padding: 30px 0px 50px 0px;
+}
